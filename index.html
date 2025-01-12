@@ -8,81 +8,84 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
             color: #333;
         }
-        .logo {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            width: 80px;
+        header {
+            text-align: center;
+            background: #fff;
+            padding: 20px 0;
+            border-bottom: 2px solid #ddd;
+        }
+        header img {
+            width: 150px;
             height: auto;
         }
         h1 {
-            font-size: 2em;
-            border-bottom: 2px solid #000;
-            margin-bottom: 20px;
+            font-size: 2.5em;
+            margin: 20px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
         h2 {
-            margin-top: 20px;
-            font-size: 1.5em;
-            color: #444;
+            color: #0056b3;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
         }
-        ul {
+        p {
             margin: 10px 0;
-            padding-left: 20px;
         }
         footer {
-            margin-top: 50px;
             text-align: center;
-            color: #666;
-            font-size: 0.9em;
+            padding: 10px 0;
+            margin-top: 20px;
+            background: #fff;
+            border-top: 1px solid #ddd;
         }
-        a {
-            color: #0066cc;
+        footer a {
+            color: #0056b3;
             text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <img src="logo.png" alt="Volynskiy Business Consulting" class="logo">
-    <h1>Privacy Policy</h1>
-    <p><strong>Effective Date:</strong> January 11, 2025</p>
-
-    <h2>1. Introduction</h2>
-    <p>Volynskiy Business Consulting values your privacy and is committed to protecting your personal data. This Privacy Policy outlines how we collect, use, and protect your information while offering our services.</p>
-
-    <h2>2. Data We Collect</h2>
-    <ul>
-        <li><strong>Contact Information:</strong> Name, email address, WhatsApp contact, and business details.</li>
-        <li><strong>Communication Data:</strong> Messages exchanged via WhatsApp and other platforms.</li>
-        <li><strong>Usage Data:</strong> Information collected when using our services.</li>
-    </ul>
-
-    <h2>3. Purpose of Data Collection</h2>
-    <ul>
-        <li>To communicate and provide personalized solutions.</li>
-        <li>To analyze and improve our services.</li>
-    </ul>
-
-    <h2>4. Third-Party Services</h2>
-    <p>We use third-party services like WhatsApp Business and ChatGPT. Their privacy policies govern the use of your data.</p>
-
-    <h2>5. Data Retention</h2>
-    <p>Your data is retained only as long as necessary to fulfill the purposes outlined in this policy.</p>
-
-    <h2>6. Your Rights</h2>
-    <p>You have the right to access, update, and delete your personal data. Contact us at <a href="mailto:volynskiybusiness@gmail.com">volynskiybusiness@gmail.com</a>.</p>
-
+    <header>
+        <img src="logo.png" alt="Volynskiy Business Consulting">
+        <h1>Privacy Policy</h1>
+    </header>
+    <div class="container">
+        <p><strong>Effective Date:</strong> January 11, 2025</p>
+        <h2>1. Introduction</h2>
+        <p>Volynskiy Business Consulting values your privacy and is committed to protecting your personal data. This Privacy Policy outlines how we collect, use, and protect your information while offering our services.</p>
+        <h2>2. Data We Collect</h2>
+        <ul>
+            <li><strong>Contact Information:</strong> Name, email address, WhatsApp contact, and business details.</li>
+            <li><strong>Communication Data:</strong> Messages exchanged via WhatsApp and other platforms.</li>
+            <li><strong>Usage Data:</strong> Information collected when using our services.</li>
+        </ul>
+        <h2>3. Purpose of Data Collection</h2>
+        <ul>
+            <li>To communicate and provide personalized solutions.</li>
+            <li>To analyze and improve our services.</li>
+        </ul>
+        <h2>4. Third-Party Services</h2>
+        <p>We use third-party services like WhatsApp Business and ChatGPT. Their privacy policies govern the use of your data.</p>
+        <h2>5. Data Retention</h2>
+        <p>Your data is retained only as long as necessary to fulfill the purposes outlined in this policy.</p>
+        <h2>6. Your Rights</h2>
+        <p>You have the right to access, update, and delete your personal data. Contact us at <a href="mailto:volynskiybusiness@gmail.com">volynskiybusiness@gmail.com</a>.</p>
+    </div>
     <footer>
         <p>© 2025 Volynskiy Business Consulting. All rights reserved.</p>
-        <p>
-            <a href="mailto:volynskiybusiness@gmail.com">Contact Us</a> | 
-            <a href="#top">Back to Top</a>
-        </p>
+        <p><a href="#">Contact Us</a> | <a href="#top">Back to Top</a></p>
     </footer>
 </body>
 </html>
